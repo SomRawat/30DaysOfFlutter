@@ -1,4 +1,4 @@
-# time_tracker_flutter_course
+# 30 days OF Flutter
 
 A new Flutter project.
 
