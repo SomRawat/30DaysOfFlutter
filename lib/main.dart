@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:time_tracker_flutter_course/pages/home_page.dart';
 import 'package:time_tracker_flutter_course/pages/login_page.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:time_tracker_flutter_course/utils/routes.dart';
 
 void main() {
   runApp(MyApp());
@@ -22,8 +23,8 @@ class MyApp extends StatelessWidget {
       initialRoute: "/",
       routes: {
         "/": (content) => LoginPage(),
-        "/home": (context) => HomePage(),
-        "/login": (context) => LoginPage()
+        MyRoutes.homeRoute: (context) => HomePage(),
+        MyRoutes.LoginRoute: (context) => LoginPage()
       },
     );
   }
