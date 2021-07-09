@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:time_tracker_flutter_course/widgets/drawer.dart';
 
-
 class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
